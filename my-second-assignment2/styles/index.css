@@ -1,0 +1,249 @@
+header{
+    background-color: #FFF4E7;
+    width: 1600px;
+    height: 1200px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    font-size: 25px;
+    margin-left: 200px;
+}
+.nav-bar ul{
+    display: flex;
+    margin-right: 100px;
+    padding-top: 15px;
+}
+.nav-bar ul li{
+    list-style: none;
+     margin-right: 40px;
+     font-size: 18px;
+     font-weight: 600;
+}
+/* header top end */
+/* header-mid starts */
+.header-mid{
+    text-align: center;
+    
+}
+.header-mid h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.header-mid p{
+    font-size: 15px;
+    color: rgb(134, 160, 151);
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.header-mid a{
+    text-decoration: none;
+    background-color: #FF900D;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+/* header section end */
+
+/* features'top section starts */
+.features{
+    margin-top: 50px;
+    width: 1300px;
+    height: 800px;
+}
+.special{
+    display: flex;
+}
+.vertical-bar{
+    border: 3px solid orange;
+    font-size: 150px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.features-container{
+    display: flex;
+}
+.features-img{
+    width: 70%;
+    margin-left: 90px;
+}
+.features-description{
+    
+    margin-top: 200px;
+}
+.features-description h2{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.features-description h2 span{
+    color: #FF900D;
+}
+.features-description p{
+    font-size: 15px;
+    color: rgb(134, 160, 151);
+    line-height: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: -20px;   
+}
+.features-description a{
+    text-decoration: none;
+    background-color: #FF900D;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+}
+/* features'top section end  */
+
+/* features'bottom section starts */
+
+.fb-left{
+    margin-left: 150px;
+    margin-right: 250px;
+    margin-top: -200px;
+}
+
+.sub-div{
+    background-color: rgb(255, 249, 244);
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.sub-div h3{
+    font-size: 16px;
+}
+flotting-parent{
+    position: relative;
+}
+.flotting-child{
+   text-align: center;
+   background-color: #FF900D;
+   width: 200px;
+   padding: 12px 15px;
+   border-radius: 10px;
+   margin-left: 45%;
+   position: absolute;
+   margin-top: -60px;
+   color: white;
+}
+
+.flotting-child h1{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.flotting-child b{
+    font-size: 20px;
+    padding: 50px;
+   
+   
+}
+/* features'bottom section end */
+
+/* facts section starts */
+
+.facts{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.facts h2{
+    font-size: 40px;
+}
+.facts p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #bdab93;
+}
+.successes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success{
+    border: 1px solid black;
+    margin: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 251, 251);
+    border-color: #FF900D;
+    border-radius: 5px;
+    color: rgb(114, 114, 102);
+    
+}
+.success h5{
+    font-size: 30px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.success img{
+    margin-top: 40px;
+}
+.success h5{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+/* facts section end */
+
+
+/* sponsors section starts */
+
+.sponsors-title{
+    text-align: center;
+}
+.sponsors-title h1{
+    font-size: 45px;
+    color: rgb(164, 112, 112);
+
+}
+.sponsors-title p{
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(154, 154, 160);
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+}
+.sponsors img{
+    margin: 30px;
+    padding: 30px;
+}
+/* sponsors section ends */
+
+
+/* footer section starts */
+footer{
+    background-color: #efe8de;
+    height: 120px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-left: 25%;
+    border-radius: 80px;
+   
+}
+footer b{
+    
+    font-size: 20px;
+    color: rgb(122, 120, 123) ;
+}
+/* footer section end */
