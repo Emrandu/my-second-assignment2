@@ -104,9 +104,9 @@ header{
 /* features'bottom section starts */
 
 .fb-left{
-    margin-left: 150px;
-    margin-right: 250px;
-    margin-top: -200px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: -120px;
 }
 
 .special{
@@ -132,6 +132,10 @@ header{
 .sub-div h3{
     font-size: 16px;
 }
+.fb-right{
+    margin-top: 340px;
+    margin-left: 100px;
+}
 .flotting-parent{
     position: relative;
 }
@@ -155,8 +159,7 @@ header{
 .flotting-child b{
     font-size: 20px;
     padding: 50px;
-   
-   
+     
 }
 /* features'bottom section end */
 
@@ -178,6 +181,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.success:hover{
+    transform: scale(1.5);
 }
 .success{
     border: 1px solid black;
@@ -361,8 +367,9 @@ footer b{
 
     }
     .fb-right img{
-        width: 80%;
-        margin-left: 40px;
+        width: 100%;
+        margin-left: -50px;
+        margin-top: -300px;
         
     }
     .sub-div{
