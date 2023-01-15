@@ -3,6 +3,7 @@ header{
     width: 1600px;
     height: 1200px;
 }
+
 .header-top{
     display: flex;
     justify-content: space-between;
@@ -54,9 +55,7 @@ header{
 
 /* features'top section starts */
 .features{
-    margin-top: 50px;
-    width: 1300px;
-    height: 800px;
+    margin-top: 80px;
 }
 .special{
     display: flex;
@@ -71,13 +70,17 @@ header{
 }
 .features-container{
     display: flex;
+   
 }
 .features-img{
-    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
     margin-left: 90px;
 }
 .features-description{
-    
+    margin-left: 100px;
     margin-top: 200px;
 }
 .features-description h2{
@@ -125,7 +128,7 @@ header{
 .sub-div h3{
     font-size: 16px;
 }
-flotting-parent{
+.flotting-parent{
     position: relative;
 }
 .flotting-child{
@@ -247,3 +250,158 @@ footer b{
     color: rgb(122, 120, 123) ;
 }
 /* footer section end */
+
+
+/* styles for responsive */
+@media screen and (max-width:576px) {
+
+    header{
+        background-color: #705d47;
+        width: 100%;
+    }
+    .header-top{
+        flex-direction: column;
+    }
+    .header-title{
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-bar ul li{
+         font-size: 30px;
+         padding: 20px;
+         margin-left: 100px;
+    }
+    /* header top end */
+    /* header-mid starts */
+    .header-mid h1{
+        font-size: 40px;
+    }
+    .header-mid p{
+        font-size: 15px;
+        
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+    .header-mid a{
+        margin-left: 38%;
+    }
+    .header-mid img{
+        width: 100%;
+        height: 100%;
+    }
+    /* header section end */
+
+    /* features'top section starts */
+    .features{
+        margin-top: -150px;
+    }
+    .features-container{
+        flex-direction: column-reverse;
+        
+       
+    }
+    .features-img{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+    }
+    .fb-left{
+        margin-left: -50px;
+        margin-right: -20px;
+        margin-top: -150px;
+
+    }
+    .fb-right img{
+        width: 80%;
+        margin-left: 40px;
+        
+    }
+    .sub-div{
+        margin-left: 60px;
+        padding: 5px;
+        margin-top: 15px;
+    }
+    .flotting-parent{
+        position: relative;
+    }
+    .flotting-child{
+      
+       margin-left: 30%;
+       margin-top: 10px;
+       
+       
+    }
+   
+
+   
+
+
+    .successes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+    .success{
+        margin-bottom: 0px;
+    }
+
+    .sponsors{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsors img{
+       
+        padding: 10px;
+    }
+
+
+
+    
+        footer{
+            background-color: #efe8de;
+            height: 100px;
+            width: 500px;
+            display: flex;
+            justify-content:flex-start;
+            margin-left: 15px; 
+        }
+        footer b{
+            font-size: 15px;
+            margin-left: 40px;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
