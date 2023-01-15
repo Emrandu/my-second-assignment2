@@ -207,6 +207,46 @@ header{
 
 /* facts section end */
 
+/* team section starts */
+.our-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.team-img{
+    margin-right: 150px;
+}
+
+.about-team{
+    margin-left: 10px;
+  
+}
+.about-team h1{
+    font-size: 40px;
+}
+.about-team span{
+    color: #FF900D;
+}
+.about-team p{
+    font-size: 17px;
+    color: blueviolet;
+}
+.team-performence{
+    display: flex;
+    justify-content: space-between;
+}
+.team-performence h4{
+    font-size: 20px;
+    color: #564a3b;
+
+}
+
+
+
+/* team section end */
+
 
 /* sponsors section starts */
 
@@ -343,7 +383,7 @@ footer b{
    
 
    
-
+/* facts section starts */
 
     .successes{
         display: flex;
@@ -354,6 +394,23 @@ footer b{
     .success{
         margin-bottom: 0px;
     }
+
+    /* facts section ends */
+
+    /* team section starts */
+    .our-team{
+        flex-direction: column;
+        margin-top: 50px;
+       margin-left: 30px;
+    }
+    .team-img{
+        margin-right: 10px;
+    }
+
+    /* team section emd*/
+
+
+    /* sponsor section starts */
 
     .sponsors{
         flex-direction: column;
